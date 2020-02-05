@@ -1,4 +1,7 @@
-<!--  <suite name="TestNGSuite">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+ <!-- 
+<suite name="TestNGSuite">
 	<test name="test1">
 		<classes>
 			<class name="cn.gloryroad.FirstTestNGDemo" />
@@ -6,8 +9,8 @@
 		</classes>
 	</test>
 </suite>
--->
-
+ -->
+<!-- 分组集成测试
 <suite name="GroupingSuite">
 	<test name="Grouping">
 		<groups>
@@ -21,3 +24,22 @@
 		</classes>
 	</test>
 </suite>
+ -->
+<!-- parallel="tests"表示使用不同的线程裕兴本文件件中test标签定义的测试类，thread-count="2"表示同时开启2个线程 -->
+<suite name="MultipeBrowserSearchTest" parallel="tests" thread-count="2">
+ 	<test name="FirefoxTest">
+ 		<parameter name="browser" value="firefox" />
+ 		<classes>
+ 			<class name="cn.gloryroad.MultipeBrowserSearchTest" />
+ 		</classes>
+ 	</test>
+ 	
+ 	<test name="chromeTest">
+ 		<parameter name="browser" value="chrome" />
+ 		<classes>
+ 			<class name="cn.gloryroad.MultipeBrowserSearchTest" />
+ 		</classes>
+ 	</test>
+</suite>
+
+ 

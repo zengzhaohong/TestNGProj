@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="cn.gloryroad.TestBaidu">
+      <class name="cn.gloryroad.MultipeBrowserSearchTest">
         <methods>
-          <include name="testBaidu"/>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="testSogouSearch"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- cn.gloryroad.TestBaidu -->
+      </class> <!-- cn.gloryroad.MultipeBrowserSearchTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

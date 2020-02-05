@@ -2,24 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25449" started-at="2020-01-17T16:56:10 CST" finished-at="2020-01-17T16:56:36 CST">
+  <suite name="Default suite" duration-ms="28775" started-at="2020-02-03T14:28:28 CST" finished-at="2020-02-03T14:28:57 CST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25449" started-at="2020-01-17T16:56:10 CST" finished-at="2020-01-17T16:56:36 CST">
-      <class name="cn.gloryroad.AssertTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:cn.gloryroad.AssertTest@eb21112]" name="beforeMethod" is-config="true" duration-ms="20488" started-at="2020-01-17T16:56:10 CST" finished-at="2020-01-17T16:56:31 CST">
+    <test name="Default test" duration-ms="28775" started-at="2020-02-03T14:28:28 CST" finished-at="2020-02-03T14:28:57 CST">
+      <class name="cn.gloryroad.ReviewTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:cn.gloryroad.ReviewTest@706a04ae]" name="beforeSuite" is-config="true" duration-ms="107" started-at="2020-02-03T14:28:28 CST" finished-at="2020-02-03T14:28:28 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:cn.gloryroad.ReviewTest@706a04ae]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-02-03T14:28:28 CST" finished-at="2020-02-03T14:28:28 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:cn.gloryroad.ReviewTest@706a04ae]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-02-03T14:28:28 CST" finished-at="2020-02-03T14:28:28 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:cn.gloryroad.ReviewTest@706a04ae]" name="beforeMethod" is-config="true" duration-ms="21541" started-at="2020-02-03T14:28:28 CST" finished-at="2020-02-03T14:28:50 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSogouSearch()[pri:0, instance:cn.gloryroad.AssertTest@eb21112]" name="testSogouSearch" duration-ms="4775" started-at="2020-01-17T16:56:31 CST" finished-at="2020-01-17T16:56:36 CST">
+        <test-method status="PASS" signature="baiduTest()[pri:0, instance:cn.gloryroad.ReviewTest@706a04ae]" name="baiduTest" duration-ms="7114" started-at="2020-02-03T14:28:50 CST" finished-at="2020-02-03T14:28:57 CST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSogouSearch -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:cn.gloryroad.AssertTest@eb21112]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-01-17T16:56:36 CST" finished-at="2020-01-17T16:56:36 CST">
+        </test-method> <!-- baiduTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:cn.gloryroad.ReviewTest@706a04ae]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-03T14:28:57 CST" finished-at="2020-02-03T14:28:57 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- cn.gloryroad.AssertTest -->
+      </class> <!-- cn.gloryroad.ReviewTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
